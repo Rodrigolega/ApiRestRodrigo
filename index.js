@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 
-// Ruta raíz: muestra nombres del equipo
+// Ruta raíz: integrantes del equipo
 app.get('/', (req, res) => {
-  res.send('Integrantes del equipo: Rodrigo Legarreta, [agrega los demás]');
+  res.send('Integrantes del equipo: Rodrigo Legarreta, Camila Escobedo');
 });
 
 // /ulsa: misión de la ULSA
